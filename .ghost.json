@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://edwintrumpet.herokuapp.com",
+    "contentApiKey": "3a576ace4359d6c9df48952cfe"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://edwintrumpet.herokuapp.com",
+    "contentApiKey": "3a576ace4359d6c9df48952cfe"
   }
 }

@@ -106,3 +106,29 @@ Gatsby `develop` uses the `development` config in `.ghost.json` - while Gatsby `
 # Copyright & License
 
 Copyright (c) 2013-2020 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+## Development
+
+Se creó una cuenta en Heroku y usando la configuración del siguiente repositorio se instaló Ghost en una instancia de Heroku.
+
+https://github.com/gndx/ghost-on-heroku
+
+Al momento de crear la instancia solamente se agregaron los valores a nombre de la aplicación y url, también pidió que tuviera una tarjeta de crédito asociada a la cuenta para hacer el despliegue.
+
+Se instaló Gatsby de manera global en el computador.
+
+```shell
+npm install -g gatsby-cli
+```
+
+Después se creó el proyecto de Gatsby usando el starter de Ghost
+
+´´´shell
+gatsby new codeblog https://github.com/TryGhost/gatsby-starter-ghost
+´´´
+
+Se borró el directorio .git para iniciar uno nuevo con mis propios commits y se crea el repositorio en GitHub para sincronizarlo.
+
+En la parte de configuraciones de nuestro sitio en Ghost creamos una nueva custom integration y copiamos el API URL y el Content API Key en el archivo .ghost.json
+
+La url también la cambiamos en el archivo `src/utils/siteConfig.js`
