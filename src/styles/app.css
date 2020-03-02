@@ -688,7 +688,7 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: var(--color-my-white);
+    background: var(--color-my-secondary);
     background-position: center;
     background-size: cover;
 }
@@ -696,7 +696,7 @@ h6 {
 .site-nav-item {
     display: inline-block;
     padding: 5px 10px;
-    color: var(--color-my-black);
+    color: var(--color-my-dark);
     opacity: 1;
 }
 
@@ -727,13 +727,13 @@ h6 {
 }
 
 .site-developer {
-    color: var(--color-my-primary);
+    color: var(--color-my-black);
     font-family: var(--font-titles);
     font-size: 2.5rem;
 }
 
 .site-occupation {
-    color: var(--color-my-primary);
+    color: var(--color-my-dark);
     font-size: 1.3rem;
     
 }
@@ -794,8 +794,8 @@ h6 {
 .site-nav-button {
     display: inline-block;
     padding: 5px 10px;
-    border: var(--color-my-black) 1px solid;
-    color: var(--color-my-black);
+    border: var(--color-my-dark) 1px solid;
+    color: var(--color-my-dark);
     font-size: 1.3rem;
     line-height: 1em;
     border-radius: var(--radius);
