@@ -132,3 +132,7 @@ Se borró el directorio .git para iniciar uno nuevo con mis propios commits y se
 En la parte de configuraciones de nuestro sitio en Ghost creamos una nueva custom integration y copiamos el API URL y el Content API Key en el archivo .ghost.json
 
 La url también la cambiamos en el archivo `src/utils/siteConfig.js`
+
+Se creó una cuenta en Netlify y se crea un nuevo sitio, ahí elegimos el repositorio de GitHub y realizamos el deploy
+
+Una vez desplegado vamos a la configuración y en Build & deploy construimos un nuevo hook para integrar la api de Heroku, le damos un nombre y listo.
