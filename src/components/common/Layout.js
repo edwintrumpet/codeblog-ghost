@@ -8,6 +8,8 @@ import { Navigation } from '.'
 
 // Styles
 import '../../styles/app.css'
+import '../../styles/vars.css'
+import '../../styles/reset.css'
 
 /**
 * Main layout component
